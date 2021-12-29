@@ -19,8 +19,8 @@ img {
 
 
 body {
-	background:url("assets/11.png");
-	font-family:'Overpass', sans-serif;
+	background: url("assets/11.png");
+	font-family: 'Overpass', sans-serif;
   	font-size: 1.135rem;
   	line-height: 1.5;
   	
@@ -69,9 +69,12 @@ a:hover {
 	color: rgba(241,4,8,1.00);
 }
 
+.fa-tiktok:hover {
+	color: cyan;
+}
 .banner {
 	background-image: url("assets/kezdokep3.jpg");
-	height: 300px;
+	height: 100vh;
 	background-size: cover;
 	background-position: center;
   	display: table;
@@ -166,9 +169,10 @@ a:hover {
 }
 
 .button {
+	background-image: url("assets/11.png");
   	border: none;
 	border-radius: 10px;
-  	color: black;
+  	color: white;
   	padding: 16px 32px;
   	text-align: center;
   	text-decoration: none;
@@ -180,8 +184,8 @@ a:hover {
 }
 
 .button5 {
-  	color: black;
-  	border: 2px solid #555555;
+  	color: whitesmoke;
+  	border: 1px solid #555555;
 }
 
 .button5:hover {
@@ -243,14 +247,18 @@ a:hover {
 ul {
   	list-style-type: none;
   	opacity: 0.9;
-  	letter-spacing: 0.1875rem;
-	margin: 2rem;
+  	letter-spacing: 1rem;
+	margin-top: 20px
 }
 
 li {
   	display: inline-flex;
 	font-size: 1.875rem;
 
+}
+
+ul li {
+	margin-bottom: 15px;
 }
 
 footer {

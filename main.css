@@ -19,7 +19,7 @@ img {
 
 
 body {
-	background-color: rgba(54,54,54,0.88);
+	background:url("assets/12.png");
 	font-family:'Overpass', sans-serif;
   	font-size: 1.135rem;
   	line-height: 1.5;
@@ -60,16 +60,16 @@ a:hover {
 }
 
 .banner {
-  display: table;
-  text-align: center;
-  height: 100vh;
-  width: 100vw;
+	background: url("assets/banner.jpg") no-repeat center;
+  	display: table;
+  	text-align: center;
+  	height: 100vh;
+  	width: 100vw;
 }
 
 .main-banner {
   	display: table-cell;
   	vertical-align: middle;
-	background-color:rgba(96,96,96,1.00);
     
 }
 
@@ -87,8 +87,8 @@ a:hover {
 }
 
 .tagline {
-  font-size: 1.5rem;
-  letter-spacing: .25rem;
+  font-size: 1rem;
+  letter-spacing: .35rem;
 }
 
 .tagline::after {
@@ -194,13 +194,14 @@ a:hover {
 =============================*/
 
 ul {
-  list-style-type: none;
-  opacity: 0.6;
-  letter-spacing: 5px;
+  	list-style-type: none;
+  	opacity: 0.6;
+  	letter-spacing: 3px;
 }
 
 li {
-  display: inline;
+  display: inline-flex;
+	padding-bottom: 10px;
 }
 
 footer {
@@ -208,7 +209,7 @@ footer {
   width: 100vw;
   background-color: #606060;
   color: #fff;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Overpass', sans-serif;
   display: table;
   text-align: center;
   font-size: .875rem;
@@ -216,8 +217,8 @@ footer {
 
 .footer-wrapper {
   display: table-cell;
-  vertical-align: middle;
-  padding: .5rem 1rem;
+  vertical-align: right;
+  padding: .5rem 3rem;
 }
 
 footer p {

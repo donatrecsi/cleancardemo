@@ -55,8 +55,8 @@ a {
 }
 
 a:hover {
-  color:rgba(196,165,121,0.85);
-  transition: color .15s ease-in-out;
+  color: #FFFFFF;
+  transition: .20s ease-in-out;
 }
 
 .banner {

@@ -55,8 +55,16 @@ a {
 }
 
 a:hover {
-  color: #FFFFFF;
+  color: rgba(255,255,255,1.00);
   transition: .20s ease-in-out;
+}
+
+.fa-facebook:hover {
+	color: rgba(2,51,240,1.00);
+}
+
+.fa-youtube:hover {
+	color: rgba(241,4,8,1.00);
 }
 
 .banner {
@@ -195,14 +203,15 @@ a:hover {
 
 ul {
   	list-style-type: none;
-  	opacity: 0.6;
-  	letter-spacing: 3px;
-	margin: 10px;
+  	opacity: 0.9;
+  	letter-spacing: 0.1875rem;
+	margin: 0.625rem;
 }
 
 li {
-  display: inline-flex;
-	padding-bottom: 10px;
+  	display: inline-flex;
+	font-size: 1.875rem;
+
 }
 
 footer {
@@ -225,7 +234,7 @@ footer {
 }
 
 footer p {
-  margin-bottom: 0;
+  margin: 40px;
 }
 
 footer small {

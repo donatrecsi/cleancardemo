@@ -117,7 +117,7 @@ a:hover {
   .main-banner-text {
     padding: 1.25rem;
     border-radius: 4px;
-    width: 50%;
+    width: 100%;
   }
 
   .main-banner-text h1 {
@@ -170,8 +170,8 @@ a:hover {
   .blurb {
     display: inline-block;
     width: 20%;
-    padding: 1.5rem;
-    margin: .5rem;
+    padding: 1.2rem;
+    margin: .3rem;
   }
 
   .blurb::after {

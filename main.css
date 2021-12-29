@@ -19,7 +19,7 @@ img {
 
 
 body {
-	background:url("assets/12.png");
+	background:url("assets/11.png");
 	font-family:'Overpass', sans-serif;
   	font-size: 1.135rem;
   	line-height: 1.5;
@@ -51,16 +51,15 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #bd806e;
+  color: rgba(243,119,3,1.00);
 }
 
 a:hover {
-  color: #eda087;
+  color:rgba(196,165,121,0.85);
   transition: color .15s ease-in-out;
 }
 
 .banner {
-	background: url("assets/banner.jpg") no-repeat center;
   	display: table;
   	text-align: center;
   	height: 100vh;
@@ -107,6 +106,7 @@ a:hover {
 @media (min-width: 768px) {
 
   .banner {
+	background: url("assets/banner.jpg")no-repeat center;
     background-color:rgba(96,96,96,1.00);
   }
 
@@ -197,6 +197,7 @@ ul {
   	list-style-type: none;
   	opacity: 0.6;
   	letter-spacing: 3px;
+	margin: 10px;
 }
 
 li {
@@ -205,20 +206,22 @@ li {
 }
 
 footer {
-  height: 10vh;
-  width: 100vw;
-  background-color: #606060;
-  color: #fff;
-  font-family: 'Overpass', sans-serif;
-  display: table;
-  text-align: center;
-  font-size: .875rem;
+	content: "";
+  	height: 10vh;
+  	width: 100vw;
+	background: hsla(100,0%,0%,.4);
+  	color: #fff;
+  	font-family: 'Overpass', sans-serif;
+  	display: table;
+  	text-align: center;
+  	font-size: .875rem;
 }
 
 .footer-wrapper {
   display: table-cell;
   vertical-align: right;
   padding: .5rem 3rem;
+
 }
 
 footer p {

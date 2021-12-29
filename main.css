@@ -111,7 +111,7 @@ a:hover {
 
 /* Media Query: Banner */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .banner {
 	background: url("assets/banner.jpg")no-repeat center;
@@ -120,7 +120,7 @@ a:hover {
 
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .main-banner-text {
     padding: 1.25rem;
@@ -134,7 +134,7 @@ a:hover {
 
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .tagline {
     text-transform: uppercase;
@@ -162,6 +162,7 @@ a:hover {
 }
 
 
+
 .blurb::after {
   content: "";
   display: block;
@@ -173,12 +174,12 @@ a:hover {
 
 /* Media Query: Location Style */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .blurb {
     display: contents;
-    width: 20%;
-    padding: 2rem;
+    width: 50%;
+    padding: 2.5rem;
     margin: .3rem;
   }
 
@@ -187,10 +188,12 @@ a:hover {
   }
 	
 	.locations {
-		margin: 10px;
-		width: 100%;
+		position: relative;
+		margin: auto;
+		width: 768px;
+		
 	}
-
+	
 }
 
 .contact {
@@ -248,7 +251,7 @@ footer small {
 
 /* Media Querry: Footer */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   footer {
     min-height: 7vh;

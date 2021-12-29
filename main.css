@@ -1,0 +1,244 @@
+/* =============================
+
+    GENERAL STYLES
+
+=============================*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Single-direction margin declaration to establish vertical rhythm. */
+h1,h2,h3,
+ul,ol,
+p,
+img {
+    margin-bottom: 1.5rem;
+}
+
+body {
+	background-color: rgba(54,54,54,0.88);
+	font-family:'Overpass', sans-serif;
+  	font-size: 1.125rem;
+  	line-height: 1.5;
+  	
+}
+
+.locations,
+.program,
+.gifts,
+.faq,
+.contact {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Overpass', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  	font-size: 1.5rem;
+	color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .15s ease-in-out;
+}
+
+.banner {
+  display: table;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-banner {
+  	display: table-cell;
+  	vertical-align: middle;
+	gap: 20px;
+	background-color:rgba(96,96,96,1.00);
+    
+}
+
+.main-banner-text {
+  margin: 0 auto;
+  padding: .625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+.main-banner-text h1 {
+  font-size: 3.15rem;
+  color: #d2ba87;
+  margin-bottom: 0; 
+}
+
+.tagline {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+}
+
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+
+
+
+/* Media Query: Banner */
+
+@media (min-width: 768px) {
+
+  .banner {
+    background-color:rgba(54,54,54,0.88);
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .main-banner-text {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  .main-banner-text h1 {
+    font-size: 7rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .tagline {
+    text-transform: uppercase;
+  }
+
+}
+
+/* =============================
+
+      LOCATIONS STYLES
+
+=============================*/
+
+.blurb img {
+  height: 7.5rem;
+}
+
+.blurb h3 {
+  font-weight: 700;
+}
+
+.blurb div {
+  	font-family: 'Overpass', sans-serif;
+	color:rgba(240,248,255,1.00);
+}
+
+
+.blurb::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+
+/* Media Query: Location Style */
+
+@media (min-width: 768px) {
+
+  .blurb {
+    display: inline-block;
+    width: 20%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .blurb::after {
+    display: none;
+  }
+
+}
+
+.contact {
+	color:rgba(240,248,255,1.00);
+	content: "";
+	width: 100%;
+	
+}
+
+/* =============================
+
+        FOOTER STYLES
+
+=============================*/
+
+ul {
+  list-style-type: none;
+  opacity: 0.6;
+  letter-spacing: 5px;
+}
+
+li {
+  display: inline;
+}
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #606060;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: table;
+  text-align: center;
+  font-size: .875rem;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer small {
+  line-height: 1.5;
+}
+
+/* Media Querry: Footer */
+
+@media (min-width: 768px) {
+
+  footer {
+    min-height: 7vh;
+  }
+
+}
+
+
+
+

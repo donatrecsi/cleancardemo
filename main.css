@@ -75,7 +75,8 @@ a:hover {
 }
 
 .main-banner {
-  	display: table-cell;
+	
+    display: table-cell;
   	vertical-align: middle;
     
 }
@@ -194,6 +195,11 @@ a:hover {
 		
 	}
 	
+	.media {
+		width: 720px;
+		height: 513px;
+	}
+	
 }
 
 .contact {
@@ -213,7 +219,7 @@ ul {
   	list-style-type: none;
   	opacity: 0.9;
   	letter-spacing: 0.1875rem;
-	margin: 0.625rem;
+	margin: 2rem;
 }
 
 li {

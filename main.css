@@ -153,12 +153,12 @@ a:hover {
 }
 
 .blurb h3 {
-  font-weight: 700;
+  font-weight: 800;
 }
 
-.blurb div {
+.blurb p {
   	font-family: 'Overpass', sans-serif;
-	color:rgba(240,248,255,1.00);
+	color: rgba(240,248,255,1.00);
 }
 
 
@@ -166,7 +166,7 @@ a:hover {
   content: "";
   display: block;
   height: .1875rem;
-  width: 25vw;
+  width: 20vw;
   margin: 1.5rem auto;
   background-color: #444349;
 }
@@ -176,15 +176,20 @@ a:hover {
 @media (min-width: 768px) {
 
   .blurb {
-    display: inline-block;
+    display: contents;
     width: 20%;
-    padding: 1.2rem;
+    padding: 2rem;
     margin: .3rem;
   }
 
   .blurb::after {
     display: none;
   }
+	
+	.locations {
+		margin: 10px;
+		width: 100%;
+	}
 
 }
 

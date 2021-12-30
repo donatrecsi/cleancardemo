@@ -74,7 +74,7 @@ a:hover {
 }
 .banner {
 	background-image: url("assets/kezdokep3.jpg");
-	height: 100vh;
+	height: 400px;
 	background-size: cover;
 	background-position: center;
   	display: table;
@@ -123,6 +123,7 @@ a:hover {
 
   .banner {
     background-color:rgba(96,96,96,1.00);
+	  height: 100vh;
   }
 
 }
@@ -225,7 +226,7 @@ a:hover {
 	}
 	
 	.media {
-		width: 720px;
+		width: 820px;
 		height: 513px;
 	}
 	

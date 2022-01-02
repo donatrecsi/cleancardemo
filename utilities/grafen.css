@@ -19,7 +19,7 @@ img {
 
 
 body {
-	background: url("assets/11.png");
+	background: url("../assets/11.png");
 	font-family: 'Overpass', sans-serif;
   	font-size: 1.135rem;
   	line-height: 1.5;
@@ -35,23 +35,32 @@ body {
 }
 
 
+
+
 h1,
-h2 {
+h2, h4 {
   	font-family: 'Overpass', sans-serif;
 }
 
 h2 {
-  font-size: 2rem;
+  	font-size: 3rem;
+	color: #fff
 }
 
 h3 {
   	font-size: 1.5rem;
-	color: aliceblue;
+	color:cornsilk;
+	letter-spacing: 2px;
+	text-align: left;
+	margin: 10px;
+}
+
+h4{
+	color: #fff;
 }
 
 
-
-a {
+.fa-chevron-left, a {
   text-decoration: none;
   color: rgba(243,119,3,1.00);
 }
@@ -73,7 +82,7 @@ a:hover {
 	color: cyan;
 }
 .banner {
-	background-image: url("assets/kezdokep3.jpg");
+	background-image: url("../assets/kezdokep3.jpg");
 	height: 400px;
 	background-size: cover;
 	background-position: center;
@@ -156,25 +165,33 @@ a:hover {
 
 =============================*/
 
+.nav-links {
+	text-align: center;
+	font-size: 16px;
+}
 
-.blurb img {
+.nav-links, ul, li {
+	
+}
+
+ img {
   height: 7.5rem;
 }
 
-.blurb h3 {
+h2, h3, h4 {
   font-weight: 800;
 }
 
-.blurb p {
-  	font-family: 'Overpass', sans-serif;
+p {
+  	font-family: 'Encode Sans', sans-serif;
 	color: rgba(240,248,255,1.00);
 }
 
 .button {
-	background-image: url("assets/11.png");
+	background-image: url("../assets/11.png");
   	border: none;
 	border-radius: 10px;
-  	color: white;
+  	color: black;
   	padding: 16px 32px;
   	text-align: center;
   	text-decoration: none;
@@ -185,13 +202,12 @@ a:hover {
   	cursor: pointer;
 }
 
-.button5 {
+.button2 {
   	color: whitesmoke;
   	border: 1px solid #555555;
 }
 
-.button5:hover {
-  background-color:rgba(151,151,151,0.42);
+.button2:hover {
   color:rgba(232,232,232,0.37);
 }
 
@@ -209,7 +225,6 @@ a:hover {
 @media screen and (min-width: 768px) {
 
   .blurb {
-    display: contents;
     width: 50%;
     padding: 2.5rem;
     margin: .3rem;
@@ -246,21 +261,22 @@ a:hover {
 
 =============================*/
 
-ul {
-  	list-style-type: none;
-  	opacity: 0.9;
-  	letter-spacing: 1rem;
-	margin-top: 20px
+.fa-list, ul, li {
+	display: block;
+	text-decoration: none;
+}
+
+ul{
+  	color: aliceblue;
 }
 
 li {
-  	display: inline-flex;
-	font-size: 1.875rem;
+	font-size: 1.5em;
 
 }
 
 ul li {
-	margin-bottom: 15px;
+	margin-bottom: 2px;
 }
 
 footer {

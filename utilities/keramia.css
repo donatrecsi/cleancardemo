@@ -1,4 +1,3 @@
-
 /* =============================
 
     GENERAL STYLES
@@ -20,40 +19,38 @@ img {
 
 
 body {
-	background: url("assets/11.png");
+	background: url("../assets/11.png");
 	font-family: 'Overpass', sans-serif;
   	font-size: 1.135rem;
   	line-height: 1.5;
   	
 }
 
-.locations,
-.contact {
-  width: 95%;
-  margin: 1.5rem auto;
-  padding: .5rem 1rem;
-  text-align: center;
-}
-
 
 h1,
-h2 {
+h2, h4 {
   	font-family: 'Overpass', sans-serif;
-	font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 2rem;
+  	font-size: 3rem;
+	color: #fff
 }
 
 h3 {
   	font-size: 1.5rem;
-	color: aliceblue;
+	color:cornsilk;
+	letter-spacing: 2px;
+	text-align: left;
+	margin: 10px;
+}
+
+h4{
+	color: #fff;
 }
 
 
-
-a {
+.fa-chevron-left, a {
   text-decoration: none;
   color: rgba(243,119,3,1.00);
 }
@@ -75,7 +72,7 @@ a:hover {
 	color: cyan;
 }
 .banner {
-	background-image: url("assets/kezdokep3.jpg");
+	background-image: url("../assets/kezdokep3.jpg");
 	height: 400px;
 	background-size: cover;
 	background-position: center;
@@ -97,7 +94,7 @@ a:hover {
   background: hsla(100,0%,0%,.5);
 }
 
-.main-banner-text {
+.main-banner-text h1 {
   font-size: 2.50rem;
   color: #d2ba87;
   margin-bottom: 0; 
@@ -127,6 +124,9 @@ a:hover {
     background-color:rgba(96,96,96,1.00);
 	  height: 100vh;
   }
+.img-center {
+}
+
 
 }
 
@@ -159,24 +159,50 @@ a:hover {
 =============================*/
 
 
-.blurb img {
-  height: 7.5rem;
+.nav-links {
+	text-align: center;
+	font-size: 16px;
 }
 
-.blurb h3 {
-  font-weight: 800;
+.nav-links, ul, li {
+	
 }
 
-.blurb p {
-  	font-family: 'Overpass', sans-serif;
+img {
+  	height: 7.5rem;
+	
+}
+
+.img-center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+article {
+	margin: 1rem;
+}
+
+h2 {
+	text-align: center;
+	margin: 20px 20px 40px;
+}
+
+h2, h3, h4 {
+  	font-weight: 900;
+}
+
+p {
+  	font-family: 'Encode Sans' sans-serif;
+	font-weight: 400;
 	color: rgba(240,248,255,1.00);
 }
 
 .button {
-	background-image: url("assets/11.png");
+	background-image: url("../assets/11.png");
   	border: none;
 	border-radius: 10px;
-  	color: white;
+  	color: black;
   	padding: 16px 32px;
   	text-align: center;
   	text-decoration: none;
@@ -187,51 +213,51 @@ a:hover {
   	cursor: pointer;
 }
 
-.button5 {
+.button2 {
   	color: whitesmoke;
   	border: 1px solid #555555;
 }
 
-.button5:hover {
-  background-color:rgba(151,151,151,0.42);
+.button2:hover {
   color:rgba(232,232,232,0.37);
 }
 
-.blurb::after {
-  content: "";
-  display: block;
-  height: .1875rem;
-  width: 20vw;
-  margin: 1.5rem auto;
-  background-color: #444349;
-}
 
 /* Media Query: Location Style */
 
 @media screen and (min-width: 768px) {
 
-  .blurb {
-    display: contents;
-    width: 50%;
-    padding: 2.5rem;
-    margin: .3rem;
-  }
-
-  .blurb::after {
-    display: none;
-  }
-	
-	.locations {
+  
+	.locations article {
+		width: min(80%, 1000px);
+		margin-inline: auto;
 		position: relative;
-		margin: auto;
-		width: 768px;
 		
 	}
 	
-	.media {
-		width: 820px;
-		height: 513px;
+	
+	
+	.fa-list {
+		background:rgba(255,255,255,0.40);
+		border-radius: 10px;
+		grid-column: span 1;
+		text-align: left;
+		padding: 10px;
+		
 	}
+	
+	.fa-list:last-child {
+		grid-column: 2;
+		grid-row-start: 1;
+	}
+	
+	
+}
+
+.locations {
+	color:rgba(240,248,255,1.00);
+	content: "";
+	width: 100%;
 	
 }
 
@@ -239,6 +265,8 @@ a:hover {
 	color:rgba(240,248,255,1.00);
 	content: "";
 	width: 100%;
+	text-align: center;
+	padding: 3rem;
 	
 }
 
@@ -248,21 +276,22 @@ a:hover {
 
 =============================*/
 
-ul {
-  	list-style-type: none;
-  	opacity: 0.9;
-	letter-spacing: 1rem;
-	margin-top: 20px
+.fa-list, ul, li {
+	display: block;
+	text-decoration: none;
+}
+
+ul{
+  	color: aliceblue;
 }
 
 li {
-  	display: inline-flex;
-	font-size: 1.875rem;
+	font-size: 1.5em;
 
 }
 
 ul li {
-	margin-bottom: 15px;
+	margin-bottom: 2px;
 }
 
 footer {
@@ -301,7 +330,3 @@ footer small {
   }
 
 }
-
-
-
-

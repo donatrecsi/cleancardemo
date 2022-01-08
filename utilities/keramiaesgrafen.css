@@ -20,25 +20,16 @@ img {
 
 body {
 	background: url("../assets/11.png");
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;;
   	font-size: 1.135rem;
   	line-height: 1.5;
   	
 }
 
-.locations,
-.contact {
-  width: 95%;
-  margin: 1.5rem auto;
-  padding: .5rem 1rem;
-  text-align: center;
-}
-
 
 h1,
-.banner-text,
 h2, h4 {
-  	font-family: 'Overpass', sans-serif;
+  	font-family: 'Poppins', sans-serif;
 }
 
 h2 {
@@ -133,6 +124,9 @@ a:hover {
     background-color:rgba(96,96,96,1.00);
 	  height: 100vh;
   }
+.img-center {
+}
+
 
 }
 
@@ -164,6 +158,29 @@ a:hover {
 
 =============================*/
 
+.circle {
+	font-family: 'Poppins', sans-serif; 
+	text-align: left;
+	padding: 0.25rem;
+	margin: 0.20rem;
+}
+
+ i .fa, .fa-circle {
+	color: rgba(236,119,3,1.00);
+	padding: 0.257rem;
+}
+
+.link {
+	color: rgba(236,119,3,1.00);
+	text-decoration: none;
+}
+
+
+
+h2 {
+	padding: 1rem;
+}
+
 .btn-link {
 	display: inline-block;
 	font-weight: 800;
@@ -175,27 +192,43 @@ a:hover {
 	margin: -10px 0 20px;
 }
 
-
-
 .nav-links {
 	text-align: center;
 	font-size: 16px;
 }
 
-.nav-links, ul, li {
+img {
+  	height: 7.5rem;
 	
 }
 
- img {
-  height: 7rem;
+.img-center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+article {
+	margin: 1rem;
+	
+}
+
+.text-list, ul, li {
+	list-style: circle;
+}
+
+h2 {
+	text-align: center;
+	margin: 10px
 }
 
 h2, h3, h4 {
-  font-weight: 800;
+  	font-weight: 900;
 }
 
 p {
-  	font-family: 'Poppins', sans-serif;
+  	font-family: 'Source Sans Pro', sans-serif sans-serif;
+	font-weight: 400;
 	color: rgba(240,248,255,1.00);
 }
 
@@ -223,36 +256,20 @@ p {
   color:rgba(232,232,232,0.37);
 }
 
-.blurb::after {
-  content: "";
-  display: block;
-  height: .1875rem;
-  width: 20vw;
-  margin: 1.5rem auto;
-  background-color: #444349;
-}
 
 /* Media Query: Location Style */
 
 @media screen and (min-width: 768px) {
 
   
-	.locations {
+	.locations article {
+		width: min(80%, 1000px);
+		margin-inline: auto;
 		position: relative;
-		margin: auto;
-		width: 768px;
 		
 	}
 	
 	
-	.container-list {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 1.5rem;
-		padding: 1rem;
-		width: inherit;
-		
-	}
 	
 	.fa-list {
 		background:rgba(255,255,255,0.40);
@@ -271,10 +288,19 @@ p {
 	
 }
 
+.locations {
+	color:rgba(240,248,255,1.00);
+	content: "";
+	width: 100%;
+	
+}
+
 .contact {
 	color:rgba(240,248,255,1.00);
 	content: "";
 	width: 100%;
+	text-align: center;
+	padding: 3rem;
 	
 }
 
@@ -338,7 +364,5 @@ footer small {
   }
 
 }
-
-
-
-
+.btn-link {
+}

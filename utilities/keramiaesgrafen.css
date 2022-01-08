@@ -28,7 +28,7 @@ body {
 
 
 h1,
-h2, h4 {
+h2 {
   	font-family: 'Poppins', sans-serif;
 }
 
@@ -45,8 +45,8 @@ h3 {
 	margin: 10px;
 }
 
-h4{
-	color: #fff;
+h4 {
+	text-align: center;
 }
 
 
